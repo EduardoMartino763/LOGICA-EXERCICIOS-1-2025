@@ -25,14 +25,14 @@ int main() {
     printf(":");
     scanf("%d", &operacao);
 
-    switch (operacao) {
+    switch (operacao) {  //Semelhante a um IF só que mais limitado
         case 1:
             resultado = somar(num_1, num_2);
-            break;
+            break; //encerra o comando (sempre usar após um caso  no Switch)
         case 2:
             resultado = subtrair(num_1, num_2);
             break;
-        default:
+        default: //Semelhante a uma ultima opção
             printf("Opção inválida\n");
     }
 
