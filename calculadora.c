@@ -9,7 +9,7 @@ double subtrair(double num_a, double num_b) {
 }
 
 int main() {
-    double num_1, num_2;
+    double num_1, num_2; //Double é um float mais preciso
     int operacao;
     double resultado;
 
